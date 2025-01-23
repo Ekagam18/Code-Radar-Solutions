@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
-    int i,j;
+    int i,j,k;
     scanf("%d",i);
     scanf("%d",j);
-    printf("%d",(i+j));
+    k=i+j;
+    printf("%d",k);
 }
