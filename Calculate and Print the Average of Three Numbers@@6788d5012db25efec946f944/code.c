@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int i,j,k,l;
+    int i,j,k;
+    float l;
     scanf("%i",&i);
     scanf("%i",&j);
     scanf("%i",&k);
