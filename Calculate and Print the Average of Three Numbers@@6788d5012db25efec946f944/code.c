@@ -7,5 +7,5 @@ int main()
     scanf("%d",&k);
     float l;
     l= (i+j+k)/ 3;
-    printf("%f",&l);
+    printf("Average: %f",&l);
 }
