@@ -5,5 +5,5 @@ int main()
     char b[20];
     scanf("%s",&a);
     scanf("%s",&b);
-    printf("You entered: %c and %c\n",a, b);
+    printf("You entered: %s and %s\n",a, b);
 }
