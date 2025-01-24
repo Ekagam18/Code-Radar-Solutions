@@ -2,10 +2,10 @@
 int main()
 {
     char a[50];
-    scanf("%s",a);
+    scanf("%s",&a);
     int c;
-    scanf("%d",25);
+    scanf("%d",&c);
     char f[50];
-    scanf("%s",f);
+    scanf("%s",&f);
     printf("Name: %s \nAge: %d \nHobby: %s",a,c,f);
 }
