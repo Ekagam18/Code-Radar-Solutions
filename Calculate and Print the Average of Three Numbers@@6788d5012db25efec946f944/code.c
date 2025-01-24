@@ -6,6 +6,6 @@ int main()
     scanf("%d",&j);
     scanf("%d",&k);
     float l;
-    l= (i+j+k)/3;
+    l= (i+j+k)/ 3;
     printf("%f",&l);
 }
