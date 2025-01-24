@@ -6,6 +6,6 @@ int main() {
     scanf("%f",&a,&b);
     float c;
     c = a*b;
-    printf("%.3f",c);
+    printf("%.2f",c);
     
 }
