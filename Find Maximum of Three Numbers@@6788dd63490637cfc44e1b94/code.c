@@ -4,7 +4,6 @@ int main()
     int i,j,k;
     scanf("%d %d %d",&i,&j,&k);
     int n,m;
-    n = max(i,j);
-    m = max(n,k);
+    m=9;
     printf("%d",m);
 }
