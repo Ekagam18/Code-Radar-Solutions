@@ -3,7 +3,16 @@ int main()
 {
     int i,j,k;
     scanf("%d %d %d",&i,&j,&k);
-    int n,m;
-    m=9;
-    printf("%d",m);
+    if(i>j && i>k  )
+    {
+        printf("%d",i);
+    }
+    else if( j>i && j>k)
+    {
+        printf("%d",j);
+    }
+    else if(k>i && k>j)
+    {
+        printf("%d",k);
+    }
 }
