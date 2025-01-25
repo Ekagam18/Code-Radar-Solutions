@@ -7,7 +7,7 @@ int main() {
     {
         printf("True");
     }
-    else if(i==0 && j==0)
+    else 
     {
         printf("Flase");
     }
