@@ -7,7 +7,7 @@ int main()
     m = i*i;
     n = j*j;
     l = k*k;
-    if(m+n ==k)
+    if(m+n ==l)
     {
         printf("Valid");
     }
