@@ -5,12 +5,12 @@ int main() {
     scanf("%d",&j);
     if(i>0 || j>0 )
     {
-        printf("True");
+        printf("True\n");
     }
     else 
     {
-        printf("Flase");
+        printf("Flase\n");
     }
-     return 0;
+     
     
 }
