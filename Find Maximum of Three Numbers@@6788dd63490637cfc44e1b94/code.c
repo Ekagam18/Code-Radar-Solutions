@@ -11,7 +11,7 @@ int main()
     {
         printf("%d",j);
     }
-    else if(k>i && k>j)
+    else 
     {
         printf("%d",k);
     }
