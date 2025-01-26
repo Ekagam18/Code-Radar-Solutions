@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char a[1];
+    char a[10];
     scanf("%c",&a);
     if( a =="a" || a =="e" || a=="i" || a=="o" || a=="u")
     {
