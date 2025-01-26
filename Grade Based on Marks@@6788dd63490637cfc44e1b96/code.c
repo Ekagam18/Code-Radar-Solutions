@@ -18,7 +18,8 @@ int main() {
    {
     printf("D");
    }
-   else{
+   else if(i<60)
+   {
     printf("F");
    }
 }
