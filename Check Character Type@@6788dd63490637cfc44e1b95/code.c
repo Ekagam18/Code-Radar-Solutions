@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    string ch;
+    char ch;
     scanf("%s",&ch);
     if( ch == 'a' || ch == 'e' || ch == 'i' || ch== 'o' || ch== 'u')
     { 
