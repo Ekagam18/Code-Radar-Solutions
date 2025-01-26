@@ -6,11 +6,11 @@ int main() {
    {
     printf("A");
    }
-   else if(80<=i<90)
+   else if(80<= i <90)
    {
     printf("B");
    }
-   else if(70<=i<80)
+   else if(70<= i <80)
    {
     printf("C");
    }
