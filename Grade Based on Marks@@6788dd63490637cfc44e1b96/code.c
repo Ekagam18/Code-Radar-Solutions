@@ -10,11 +10,11 @@ int main() {
    {
     printf("B");
    }
-   else if( 70<= i <80)
+   else if(i>=70 && i<80)
    {
     printf("C");
    }
-   else if(60<=i<70)
+   else if(i>=60 && i<70)
    {
     printf("D");
    }
