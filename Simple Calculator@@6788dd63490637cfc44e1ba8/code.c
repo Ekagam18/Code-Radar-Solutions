@@ -2,21 +2,21 @@
 int main()
 {
     int i,j;
-    char a[10];
+    char op;
     scanf("%d %d",&i,&j);
-    scanf("%c",&a);
+    scanf("%c",&op);
     int d,e,f,g;
     d = i + j;
     e = i - j;
     f = i * j;
     g = i / j;
-    switch(a)
+    switch(op)
     {
-        case'+':
+        case '+':
           printf("%d",d);
           break;
 
-        case'-':
+        case '-':
            printf("%d",e);
            break;
         
