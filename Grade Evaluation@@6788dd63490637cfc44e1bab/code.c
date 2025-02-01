@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    char a[2];
-    scanf("%c",&a);
-    if(a == "A")
+    char ch[2];
+    scanf("%c",&ch);
+    if(ch == "A")
     {
         printf("Excellent");
     }
-    else if(a=="B")
+    else if(ch =="B")
     {
         printf("Good");
     }
