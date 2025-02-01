@@ -11,7 +11,7 @@ int main()
     {
         printf("Same Sign");
     }
-    else
+    else if(i<0 && j>0 || i>0 && j<0)
     {
         printf("Different Sign");
     }
