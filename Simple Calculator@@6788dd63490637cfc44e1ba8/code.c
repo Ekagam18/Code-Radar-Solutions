@@ -2,7 +2,7 @@
 int main()
 {
     int i,j;
-    char a[1];
+    char a[2];
     int d,e,f,g;
     scanf("%d %d",&i,&j);
     scanf("%c",&a);
@@ -14,7 +14,7 @@ int main()
     {
         printf("%d",d);
     }
-    else if( a == "-")
+    else if(a == "-")
     {
         printf("%d",e);
     }
