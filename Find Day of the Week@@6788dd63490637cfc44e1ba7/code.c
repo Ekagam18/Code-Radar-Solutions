@@ -21,7 +21,7 @@ int main()
     }
     else if(i==5)
     {
-        printf("Freiday");
+        printf("Friday");
     }
     else if(i==6)
     {
