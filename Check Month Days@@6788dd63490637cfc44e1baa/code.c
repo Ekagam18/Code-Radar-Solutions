@@ -3,7 +3,7 @@ int main()
 {
     int i;
     scanf("%d",&i);
-    if(i>=3 && i<=7 )
+    if(i>=3 && i<=7  && i==1)
     {
         if(i%2==0)
         {
