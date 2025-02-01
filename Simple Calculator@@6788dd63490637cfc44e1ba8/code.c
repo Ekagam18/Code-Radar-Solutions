@@ -3,14 +3,14 @@ int main()
 {
     int i,j;
     char a[10];
-    int d,e,f,g;
     scanf("%d %d",&i,&j);
     scanf("%c",&a);
+    int d,e,f,g;
     d = i + j;
     e = i - j;
     f = i * j;
     g = i / j;
-    if(a == "+")
+    if(a == '+')
     {
         printf("%d",d);
     }
