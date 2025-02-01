@@ -10,21 +10,18 @@ int main()
     e = i - j;
     f = i * j;
     g = i / j;
-    if(a == '+')
+    switch(a)
     {
-        printf("%d",d);
-    }
-    else if(a == "-")
-    {
-        printf("%d",e);
-    }
-    else if(a == "*")
-    {
-        printf("%d",f);
-    }
-    else if(a == "/")
-    {
-        printf("%d",g);
+        case'+':
+          printf("%d",d);
+          break;
+
+        case'-':
+           printf("%d",e);
+           break;
+        
+        default:
+           printf("error");
     }
 
 }
