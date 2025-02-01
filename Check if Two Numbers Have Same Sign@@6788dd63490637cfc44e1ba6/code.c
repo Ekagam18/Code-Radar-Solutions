@@ -7,7 +7,7 @@ int main()
     {
         printf("Same Sign");
     }
-    else if(i<0 && j<<0)
+    else if(i<0 && j<0)
     {
         printf("Same Sign");
     }
