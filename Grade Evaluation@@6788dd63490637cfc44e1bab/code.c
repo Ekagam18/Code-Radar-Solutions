@@ -3,7 +3,7 @@ int main()
 {
     char ch[2];
     scanf("%c",&ch);
-    if(ch == "A")
+    if(ch == 'A')
     {
         printf("Excellent");
     }
