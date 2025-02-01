@@ -11,15 +11,15 @@ int main()
     {
         printf("Good");
     }
-    else if(a == "C")
+    else if(ch == "C")
     {
         printf("Average");
     }
-    else if(a == "D")
+    else if(ch == "D")
     {
         printf("Below Average");
     }
-    else if(a=="F")
+    else if(ch =="F")
     {
         printf("Fail");
     }
