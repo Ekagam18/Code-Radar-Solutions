@@ -3,7 +3,7 @@ int main()
 {
     float i,j;
     char op;
-    if(scanf("%d %d %c ",&i,&j,&op)!= 3)
+    if(scanf("%d %d %s ",&i,&j,&op)!= 3)
     {
         printf("error");
         return 1;
@@ -11,13 +11,13 @@ int main()
     switch(op)
     {
         case'+':
-          printf("%d",i + j);
+          printf("%d", i + j);
           break;
         case'-':
-           printf("%d",i - j);
+           printf("%d", i - j);
            break;
         case'*':
-           printf("%d",i*j);
+           printf("%d", i * j);
            break;
         case'/':
            printf("%d", i / j);
