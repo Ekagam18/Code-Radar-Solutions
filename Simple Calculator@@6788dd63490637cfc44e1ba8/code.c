@@ -5,7 +5,7 @@ int main()
     char op;
     scanf("%d %d",&i,&j);
     scanf("%s",&op);
-    int d,e,f,g;
+   float d,e,f,g;
     d = i + j;
     e = i - j;
     f = i * j;
@@ -13,14 +13,14 @@ int main()
     switch(op)
     {
         case '+':
-          printf("%d",d);
+          printf("%f",d);
           break;
 
         case '-':
-           printf("%d",e);
+           printf("%f",e);
            break;
         case '*':
-           printf("%d",f);
+           printf("%f",f);
         
         default:
            printf("error");
