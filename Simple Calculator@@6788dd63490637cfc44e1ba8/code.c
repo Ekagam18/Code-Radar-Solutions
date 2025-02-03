@@ -14,13 +14,13 @@ int main()
           printf("%d",i+j);
           break;
         case'-':
-           printf("%d",e);
+           printf("%d",i-j);
            break;
         case'*':
-           printf("%d",f);
+           printf("%d",i*j);
            break;
         case'/':
-           printf("%d",g);
+           printf("%d",i/j);
            break;
         
         default:
