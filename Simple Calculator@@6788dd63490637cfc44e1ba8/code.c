@@ -13,11 +13,11 @@ int main()
  
     switch(op)
     {
-        case"+":
+        case'+':
           printf("%d",d);
           break;
 
-        case"-":
+        case'-':
            printf("%d",e);
            break;
         case'*':
