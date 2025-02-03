@@ -31,7 +31,7 @@ int main()
         
         default:
            printf("error");
-           break;
+           
     }
 
 }
