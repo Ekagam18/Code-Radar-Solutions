@@ -3,14 +3,11 @@ int main()
 {
     float i,j;
     char op;
-    scanf("%f %f",&i,&j);
-    scanf("%s",&op);
-    float d,e,f,g;
-    d= i+j;
-    e= i-j;
-    f= i*j;
-    g= i/j;
-    printf("%d",d);
+    if(scanf("%d %d %c ",&i,&j,&op)!= 3)
+    {
+        printf("error\n");
+        return 1;
+    }
     switch(op)
     {
         case'+':
