@@ -10,7 +10,7 @@ int main()
     e= i-j;
     f= i*j;
     g= i/j;
- 
+    printf("%d",d);
     switch(op)
     {
         case'+':
