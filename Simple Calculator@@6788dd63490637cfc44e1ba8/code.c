@@ -22,11 +22,14 @@ int main()
            break;
         case'*':
            printf("%d",f);
+           break;
         case'/':
            printf("%d",g);
+           break;
         
         default:
            printf("error");
+           break;
     }
 
 }
