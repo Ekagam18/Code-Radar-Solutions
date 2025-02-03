@@ -5,15 +5,16 @@ int main()
     char op;
     scanf("%d %d",&i,&j);
     scanf("%s",&op);
-   float d,e,f,g;
+    float d,e,f,g;
     d = i + j;
     e = i - j;
     f = i * j;
     g = i / j;
+ 
     switch(op)
     {
         case '+':
-          printf("%f",d);
+          printf("%d",d);
           break;
 
         case '-':
