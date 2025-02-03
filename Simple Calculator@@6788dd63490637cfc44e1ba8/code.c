@@ -6,7 +6,7 @@ int main()
     scanf("%d %d",&i,&j);
     scanf("%s",&op);
     float d,e,f,g;
-    d = i + j;
+    d = i+j;
     e = i - j;
     f = i * j;
     g = i / j;
