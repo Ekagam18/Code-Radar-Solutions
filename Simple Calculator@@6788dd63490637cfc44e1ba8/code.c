@@ -18,7 +18,14 @@ int main()
     }
     else if( op == '/')
     {
-        printf("%d", i/j);
+        if(i ==0 || j==0)
+        {
+            printf("error");
+        }
+        else
+        {
+            printf("%d", i/j);
+        }
     }
     else
     {
