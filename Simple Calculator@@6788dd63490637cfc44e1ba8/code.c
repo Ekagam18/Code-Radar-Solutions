@@ -10,12 +10,12 @@ int main()
     }
     else if( op =='-')
     {
-        printf("%d" , i-j);
+        printf("%d", i-j);
     }
-    // else if( op == '*')
-    // {
-    //     printf("%d", i*j);
-    // }
+    else if( op == '*')
+    {
+        printf("%d", i*j);
+    }
     // else if( op == '/')
     // {
     //     printf("%d", i/j);
