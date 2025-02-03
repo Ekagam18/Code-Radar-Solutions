@@ -11,7 +11,7 @@ int main()
     switch(op)
     {
         case'+':
-          printf("%d",i+j);
+          printf("%d",i + j);
           break;
         case'-':
            printf("%d",i-j);
