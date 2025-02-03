@@ -3,11 +3,7 @@ int main()
 {
     float i,j;
     char op;
-    if(scanf("%d %d %c ",&i,&j,&op)!= 3)
-    {
-        printf("error");
-        return 1;
-    }
+    scanf("%d %d %c ",&i,&j,&op);
     if( op == '+')
     {
         printf("%d", i+j);
