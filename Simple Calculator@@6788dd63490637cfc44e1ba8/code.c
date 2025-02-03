@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int i,j;
+    float i,j;
     char op;
     if(scanf("%d %d %c ",&i,&j,&op)!=3)
     {
