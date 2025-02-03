@@ -20,14 +20,7 @@ int main()
            printf("%d",i*j);
            break;
         case'/':
-           if(num ==0)
-           {
-            printf("error");
-           }
-           else
-           {
-            printf("%d", i / j);
-           }
+           printf("%d", i / j);
         
         default:
            printf("error");
