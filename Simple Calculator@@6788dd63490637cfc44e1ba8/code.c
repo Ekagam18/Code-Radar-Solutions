@@ -3,9 +3,9 @@ int main()
 {
     float i,j;
     char op;
-    if(scanf("%d %d %c ",&i,&j,&op)!=3)
+    if(scanf("%d %d %c ",&i,&j,&op)!= 3)
     {
-        printf("error\n");
+        printf("error");
         return 1;
     }
     switch(op)
@@ -14,14 +14,20 @@ int main()
           printf("%d",i + j);
           break;
         case'-':
-           printf("%d",i-j);
+           printf("%d",i - j);
            break;
         case'*':
            printf("%d",i*j);
            break;
         case'/':
-           printf("%d",i/j);
-           break;
+           if(num ==0)
+           {
+            printf("error");
+           }
+           else
+           {
+            printf("%d", i / j);
+           }
         
         default:
            printf("error");
