@@ -13,15 +13,17 @@ int main()
  
     switch(op)
     {
-        case '+':
+        case'+':
           printf("%d",d);
           break;
 
-        case '-':
-           printf("%f",e);
+        case'-':
+           printf("%d",e);
            break;
-        case '*':
-           printf("%f",f);
+        case'*':
+           printf("%d",f);
+        case'/':
+           printf("%d",g);
         
         default:
            printf("error");
