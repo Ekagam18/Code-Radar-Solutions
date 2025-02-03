@@ -16,10 +16,10 @@ int main()
     {
         printf("%d", i*j);
     }
-    // else if( op == '/')
-    // {
-    //     printf("%d", i/j);
-    // }
+    else if( op == '/')
+    {
+        printf("%d", i/j);
+    }
     else
     {
         printf("error");
