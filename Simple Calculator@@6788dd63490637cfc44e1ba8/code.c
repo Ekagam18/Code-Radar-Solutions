@@ -11,7 +11,7 @@ int main()
     f= i*j;
     g= i/j;
 
-    switch[op]
+    switch(op)
     {
         case'+':
           printf("%d",i+j);
