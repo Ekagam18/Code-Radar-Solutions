@@ -8,25 +8,9 @@ int main()
         printf("error");
         return 1;
     }
-    switch(op)
+    if( op =="+")
     {
-        case'+':
-          printf("%d", i + j);
-          break;
-        case'-':
-           printf("%d", i - j);
-           break;
-        case'*':
-           printf("%d", i * j);
-           break;
-        case'/':
-           printf("%d", i / j);
-        
-        default:
-           printf("error");
-
-        return 0;
-           
+        printf("%d", i+j);
     }
 
 }
