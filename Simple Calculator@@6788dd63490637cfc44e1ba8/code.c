@@ -4,7 +4,7 @@ int main()
     int i,j;
     char op;
     scanf("%d %d",&i,&j);
-    scanf("%c",&op);
+    scanf("%s",&op);
     int d,e,f,g;
     d = i + j;
     e = i - j;
@@ -19,6 +19,8 @@ int main()
         case '-':
            printf("%d",e);
            break;
+        case '*':
+           printf("%d",f);
         
         default:
            printf("error");
