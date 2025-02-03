@@ -4,7 +4,7 @@ int main()
     float i,j;
     char op;
     scanf("%d %d",&i,&j);
-    scanf("%c",&op);
+    scanf("%s",&op);
     float d,e,f,g;
     d= i+j;
     e= i-j;
