@@ -20,9 +20,9 @@ int main()
     // {
     //     printf("%d", i/j);
     // }
-    // else
-    // {
-    //     printf("error");
-    // }
+    else
+    {
+        printf("error");
+    }
 
 }
