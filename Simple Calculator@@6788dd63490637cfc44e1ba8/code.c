@@ -8,7 +8,7 @@ int main()
         printf("error");
         return 1;
     }
-    if( op =="+")
+    if( op == '+')
     {
         printf("%d", i+j);
     }
