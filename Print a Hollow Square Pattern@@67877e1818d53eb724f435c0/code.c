@@ -7,10 +7,14 @@ int main()
     {
         for(j=1;j<=l;j++)
         {
-            printf("*");
+            
             if(i>1 && i< (l-1))
             {
                printf(" ");
+            }
+            else
+            {
+                printf("*");
             }
         }
 
