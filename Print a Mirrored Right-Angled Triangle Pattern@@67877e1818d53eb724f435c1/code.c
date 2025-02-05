@@ -5,9 +5,12 @@ int main()
     scanf("%d",&k);
     for(i=1;i<=k;i++)
     {
-        for(j=k;j>=k-1;j--)
+        for(j=1;j>=k-1;j++)
         {
-            printf(" *");
+            printf(" ");
+        }
+        for(k = 1;k<=i;k++){
+            printf("*");
         }
         printf("\n");
     }
