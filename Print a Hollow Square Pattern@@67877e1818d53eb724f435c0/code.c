@@ -8,7 +8,7 @@ int main()
         for(j=1;j<=l;j++)
         {
             
-            if(i>1 && i< l)
+            if(i>1 && i< l && (j>1 && j<l))
             {
                printf(" ");
             }
