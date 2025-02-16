@@ -8,6 +8,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         c += i;
-        printf("%d",c);
+        
     }
+    printf("%d",c);
 }
