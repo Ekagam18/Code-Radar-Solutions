@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-prime(int a)
+int prime(int a)
 {
   
 }
