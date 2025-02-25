@@ -1,11 +1,14 @@
 // Your code here...
 #include <stdio.h>
-int prime(int a)
+int isPrime( int a)
 {
-  
-}
-int main()
-{
-    int m;
-    scanf("%d",&m);
+  int c=0;
+  for(i=2;i<a-1;i++)
+  {
+    if(a%i==0)
+    {
+        c==1;
+    }
+  }
+   c = num;
 }
