@@ -13,9 +13,9 @@ int isPrime( int a)
     {
         c==0;  // not prime
     }
-    printf("%d",c); 
+     
   }
-
+printf("%d",c);
     
   
 }
