@@ -10,5 +10,5 @@ int isPrime( int a)
         c==1;
     }
   }
-   c = num;
+   printf("%d",c);
 }
