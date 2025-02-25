@@ -5,7 +5,7 @@ int isPrime( int num)
   int c=0,i;
   for(i=2;i<=num-1;i++)
   {
-    if(num%i==0)
+    if(num % i!=0)
     {
         c==1;
     }
