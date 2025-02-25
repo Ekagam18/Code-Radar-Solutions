@@ -1,6 +1,6 @@
 // Your code here...
 
-isPrime( int num)
+int isPrime( int num)
 {
   int c=0,i;
   for(i=2;i<=num-1;i++)
@@ -14,5 +14,12 @@ isPrime( int num)
         c==0;
     }
   }
-  printf("%d",c); 
+  if(c==0)
+  {
+    printf("%d",c); 
+  }
+  else{
+    printf("%d",c); 
+  }
+  
 }
