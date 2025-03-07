@@ -11,7 +11,7 @@ int main()
       {
         printf("%d",(i+j)%2);
       }
-      printf(" ");
+      printf("\n");
     }
    
 }
