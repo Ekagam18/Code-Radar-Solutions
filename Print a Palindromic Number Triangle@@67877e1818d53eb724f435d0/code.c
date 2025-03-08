@@ -11,6 +11,10 @@ int main()
         {
             printf("%d",j);
         }
+        for(k=i-1; j>=1;j--)
+        {
+            printf("%d",k);
+        }
         printf("\n");
     }
 }
