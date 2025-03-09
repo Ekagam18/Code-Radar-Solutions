@@ -7,4 +7,4 @@ int main()
     int k;
     k= (i>>j) & 1;
     printf("%d",k);
-}l
+}
