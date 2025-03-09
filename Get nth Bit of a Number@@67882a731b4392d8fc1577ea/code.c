@@ -5,6 +5,6 @@ int main()
     int i,j;
     scanf("%d %d ",&i,&j);
     int k;
-    k= sizeof(i &&j);
+    k= (i>>j) & 1;
     printf("%d",k);
-}
+}l
