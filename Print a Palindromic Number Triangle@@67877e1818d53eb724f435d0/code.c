@@ -4,17 +4,17 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int i,j,k;
+    int i;
     for(i=1;i<=n;i++)
     {
-        printf(" ");
-        for(j=1;j<=i;j++)
+        
+        for(int j=1;j<=i;j++)
         {
             printf("%d",j);
         }
-        for(k=i-1;k>=1;k--)
+        for(int j=i-1;j>=1;j--)
         {
-            printf("%d",k);
+            printf("%d",j);
         }
         printf("\n");
     }
