@@ -6,16 +6,16 @@ int main()
     scanf("%d",&n);
     int a[n];
     int i;
-    
+    int max;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     
     }
-    int max=a[0];
+    max=a[0];
     if(a[i]>max)
     {
-       max=a[i];
+        max=a[i];
         printf("%d",max);
     }
 }
