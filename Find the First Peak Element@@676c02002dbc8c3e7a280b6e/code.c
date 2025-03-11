@@ -13,9 +13,13 @@ int main()
     
     }
     max=a[0];
-    if(a[i]>max)
+    for(j=1;j<n;j++)
     {
-        max=a[i];
-        printf("%d",max);
+      if(a[j]>max)
+      {
+        max=a[j];
+        
+      }
     }
+   printf("%d",max);
 }
