@@ -14,6 +14,6 @@ int main()
     }
     if(a[0]>max)
     {
-        printf("%d",max);
+        printf("%d",a[0]);
     }
 }
