@@ -6,7 +6,7 @@ int main()
     scanf("%d",&n);
     int a[n];
     int i,c=0,d=0;
-    for(i=0;i<n;i++)
+    for(i=1;i<=n;i++)
     {
         if(a[i]%2==0)
         {
