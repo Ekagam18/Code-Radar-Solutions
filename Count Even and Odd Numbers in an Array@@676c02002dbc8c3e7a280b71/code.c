@@ -8,6 +8,7 @@ int main()
     int i,c=0,d=0;
     for(i=1;i<=n;i++)
     {
+        scanf("%d",&a[i]);
         if(a[i]%2==0)
         {
             c+=1;
