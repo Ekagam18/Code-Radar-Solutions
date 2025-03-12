@@ -5,19 +5,26 @@ int main()
     int n;
     scanf("%d",&n);
     int a[n];
-    int i ,max = 0 ,min = 0;
+    int i ;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     }
-    if(a[0]>max)
+    int  max = a[0] ,min = a[0];
+    for(int j=0;j<n;j++)
     {
-        printf("%d ",a[0]);
+       if(a[0]>max)
+      {
+        max =a[j];
+      }
     }
-    if(a[0]<min)
+    for(int j=0;j<n;j++)
     {
-        printf("%d",a[0]);
-
+        if(a[0]<min)
+      {
+        min =a[j];
+      }
     }
-
+    
+   printf("%d %d",min,max);
 }
