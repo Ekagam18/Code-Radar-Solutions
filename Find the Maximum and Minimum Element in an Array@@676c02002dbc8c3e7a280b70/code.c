@@ -12,9 +12,9 @@ int main()
     }
     if(a[0]>max)
     {
-        printf("%d",a[0]);
+        printf("%d ",a[0]);
     }
-    else if(a[0]<min)
+    if(a[0]<min)
     {
         printf("%d",a[0]);
 
