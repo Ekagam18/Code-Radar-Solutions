@@ -13,14 +13,14 @@ int main()
     int  max = a[0] ,min = a[0];
     for(int j=0;j<n;j++)
     {
-       if(a[0]>max)
+       if(a[j]>max)
       {
-        max =a[j];
+        max=a[j];
       }
     }
     for(int j=0;j<n;j++)
     {
-        if(a[0]<min)
+        if(a[j]<min)
       {
         min =a[j];
       }
