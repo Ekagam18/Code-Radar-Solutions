@@ -16,5 +16,5 @@ int isPrime( int a)
      
   }
     
-  
+  return c;
 }
