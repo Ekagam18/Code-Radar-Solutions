@@ -7,14 +7,14 @@ int isPrime( int a)
   {
     if(a % i!=0)
     {
-        c==1;  //prime
+        return 1;  //prime
     }
     else
     {
-        c==0;  // not prime
+        return 0;  // not prime
     }
      
   }
-   return c; 
+   
   
 }
