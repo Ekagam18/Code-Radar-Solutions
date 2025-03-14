@@ -9,7 +9,7 @@ int isPrime( int num)
     {
         return 1;  //prime
     }
-    else if(num==1)
+    else if(num ==1)
     {
         return 0;  // not prime
     }
