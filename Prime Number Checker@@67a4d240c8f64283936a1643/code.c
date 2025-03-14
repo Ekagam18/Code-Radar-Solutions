@@ -15,7 +15,6 @@ int isPrime( int a)
     }
      
   }
-printf("%d",c);
     
   
 }
