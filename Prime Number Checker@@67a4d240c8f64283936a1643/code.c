@@ -9,9 +9,13 @@ int isPrime( int num)
     {
         return 1;  //prime
     }
-    else
+    else if(num==1)
     {
         return 0;  // not prime
+    }
+    else 
+    {
+        return 0;
     }
      
   }
