@@ -13,8 +13,8 @@ int isPrime( int a)
     {
         c==0;  // not prime
     }
-     return c;
+     
   }
-    
+   return c; 
   
 }
