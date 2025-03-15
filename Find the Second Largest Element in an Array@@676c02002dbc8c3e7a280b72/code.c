@@ -6,16 +6,15 @@ int main()
     scanf("%d",&n);
     int a[n];
     int i,c=0,d=0;
-    
-    for(i=0;i<n;i++)
-    {
-        scanf("%d",&a[i]);
-        if(i<=1)
+    if(i<=1)
         {
            printf("-1");
         }
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
         
-        else if(c<a[i])
+        if(c<a[i])
         {
             d=c;
             c=a[i];
@@ -25,10 +24,9 @@ int main()
             if(d<a[i])
             {
                 d=a[i];
-                 printf("%d",d);
             }
             
         }
     }
-   
+    printf("%d",d);
 }
