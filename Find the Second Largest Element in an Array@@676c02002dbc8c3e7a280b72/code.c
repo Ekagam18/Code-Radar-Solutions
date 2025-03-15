@@ -15,7 +15,7 @@ int main()
         }
         else
         {
-            if(d<a[j])
+            if(d<a[i])
             {
                 d=a[i];
             }
