@@ -20,6 +20,10 @@ int main()
             {
                 d=a[i];
             }
+            else
+            {
+               printf("-1");
+            }
         }
     }
     printf("%d",d);
