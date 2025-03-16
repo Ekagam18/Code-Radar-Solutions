@@ -19,6 +19,10 @@ int main()
      {
         printf("%d",j);
      }
+     else
+     {
+        printf("-1");
+     }
     }
    
 
