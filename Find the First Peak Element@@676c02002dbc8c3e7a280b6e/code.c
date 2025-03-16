@@ -27,7 +27,7 @@ int main()
       
     }
    
-   if(s==0)
+   if(s)
    {
     printf("-1");
    }
