@@ -18,6 +18,7 @@ int main()
       if(a[j]>max)
       {
         max=a[j];
+        break;
         
       }
     }
