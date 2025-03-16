@@ -5,20 +5,29 @@ int main()
     int n;
     scanf("%d",&n);
     int a[n];
-    int i;
+    int i,s=0;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
-        if(a[0]<a[i])
+        
+    }
+    for(int j=0;j<n-1;j--)
+    {
+        if(a[i]>a[i+1])
         {
-            a[0]=a[i];
-            printf("Sorted");
+            s=1;
         }
         else
         {
-            printf("Not Sorted");
+            s=0;
         }
-        
     }
-    
+    if(s==0)
+    {
+        printf("Sorted");
+    }
+    else
+    {
+        printf("Not Sorted");
+    }
 }
