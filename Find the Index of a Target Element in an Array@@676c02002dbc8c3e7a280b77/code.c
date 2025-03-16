@@ -11,10 +11,14 @@ int main()
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
-         if(m==a[i])
-    {
-        printf("%d",i);
+    
     }
+    for(int j=0;j<n;j++)
+    {
+     if(m==a[j])
+     {
+        printf("%d",j);
+     }
     }
    
 
