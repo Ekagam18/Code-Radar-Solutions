@@ -15,10 +15,10 @@ int main()
     {
         if(d==0)
         {
-            c=a[i];
+            c=a[j];
             d=1;
         }
-        else if(a[i]==c)
+        else if(a[j]==c)
         {
             d++;
         }
