@@ -20,10 +20,20 @@ int main()
         max=a[j];
         
       }
-      else if(a[j] ==a[j+1] && a[j+1]==a[j+2]  )
+      else if(a[j]!=a[j-1])
+      {
+        s=0;
+      }
       {
         max=-1;
       }
     }
-   printf("%d",max);
+   
+   if(s==0)
+   {
+    printf("-1");
+   }
+   else{
+    printf("%d",&max);
+   }
 }
