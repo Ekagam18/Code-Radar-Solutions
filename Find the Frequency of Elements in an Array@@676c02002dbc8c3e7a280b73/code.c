@@ -11,7 +11,7 @@ int main()
         scanf("%d",&a[i]);
 
     }
-    int ,b=0,c=0,d=0;
+    int b=0,c=0,d=0;
     for(int j=0;j<n;j++)
     {
         if(a[i]!=a[i+1])
