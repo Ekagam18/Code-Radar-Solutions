@@ -27,6 +27,14 @@ int main()
             d--;
         }
     }
+    d=0;
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]==c)
+        {
+            c++;
+        }
+    }
     if(d>n/2)
     {
         printf("%d",c);
