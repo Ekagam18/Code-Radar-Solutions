@@ -32,7 +32,7 @@ int main()
     {
         if(a[i]==c)
         {
-            c++;
+            d++;
         }
     }
     if(d> n/2)
