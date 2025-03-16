@@ -24,12 +24,14 @@ int main()
       {
         s=0;
       }
-       printf("%d",&max);
+      
     }
    
    if(s)
    {
     printf("-1");
    }
-  
+   else{
+    printf("%d",max);
+   }
 }
