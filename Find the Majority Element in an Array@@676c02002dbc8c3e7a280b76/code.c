@@ -18,6 +18,10 @@ int main()
             c=a[i];
             d=1;
         }
+        else if(a[i]==c)
+        {
+            d++;
+        }
         else
         {
             d--;
