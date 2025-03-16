@@ -28,7 +28,13 @@ int main()
         }
     }
     d=0;
-   
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]==c)
+        {
+            d++;
+        }
+    }
     if(d> n/2)
     {
         printf("%d",c);
