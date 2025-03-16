@@ -20,7 +20,7 @@ int main()
         max=a[j];
         
       }
-      else if(a[j] ==a[j+1] ||a[j]==a[j+2])
+      else if(a[j] ==a[j+1] && a[j]==a[j+2])
       {
         max=-1;
       }
