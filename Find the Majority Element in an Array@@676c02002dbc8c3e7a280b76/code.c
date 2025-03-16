@@ -35,7 +35,7 @@ int main()
             c++;
         }
     }
-    if(d>n/2)
+    if(d> n/2)
     {
         printf("%d",c);
     }
