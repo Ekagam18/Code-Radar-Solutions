@@ -5,24 +5,25 @@ int main()
     int n;
     scanf("%d",&n);
     int a[n];
-    int i,s=0;
+    int i,s=1;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
         
     }
-    for(int j=0;j<n-1;j--)
+    for(int j=0;j< n-1;j--)
     {
-        if(a[i]>a[i+1])
+        if(a[i]> a[i + 1])
         {
-            s=1;
+            s=0;
+            break;
         }
         else
         {
-            s=0;
+            s=1;
         }
     }
-    if(s==0)
+    if(s==1)
     {
         printf("Sorted");
     }
