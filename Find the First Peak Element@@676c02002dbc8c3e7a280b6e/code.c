@@ -15,7 +15,7 @@ int main()
     max=a[0];
     for(j=1;j<n;j++)
     {
-      if(a[j]>max && a[j]>a[j+1])
+      if(a[j]>max)
       {
         max=a[j];
         break;
