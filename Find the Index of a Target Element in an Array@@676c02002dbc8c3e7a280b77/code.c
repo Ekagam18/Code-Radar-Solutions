@@ -11,19 +11,16 @@ int main()
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
-    
-    }
-    for(int j=0;j<n;j++)
-    {
-     if(m==a[j])
+        if(m==a[i])
      {
         printf("%d",j);
      }
-     else if(m!=a[j])
+     else if(m!=a[i])
      {
         printf("-1");
      }
     }
+    
    
 
 }
