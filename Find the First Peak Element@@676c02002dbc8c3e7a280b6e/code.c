@@ -5,7 +5,7 @@ int main()
     int n;
     scanf("%d",&n);
     int a[n];
-    int i,j ,s=1;
+    int i,j;
     int max;
     for(i=0;i<n;i++)
     {
@@ -20,18 +20,6 @@ int main()
         max=a[j];
         
       }
-      else if(a[j]!=a[j-1])
-      {
-        s=0;
-      }
-      
     }
-   
-   if(s)
-   {
-    printf("-1");
-   }
-   else{
-    printf("%d",max);
-   }
+   printf("%d",max);
 }
