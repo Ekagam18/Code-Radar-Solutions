@@ -18,10 +18,7 @@ int main()
             s=0;
             break;
         }
-        else
-        {
-            s=1;
-        }
+        
     }
     if(s==1)
     {
