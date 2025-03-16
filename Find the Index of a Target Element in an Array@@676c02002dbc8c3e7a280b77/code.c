@@ -13,7 +13,7 @@ int main()
         scanf("%d",&a[i]);
         if(m==a[i])
      {
-        printf("%d",j);
+        printf("%d",i);
      }
      else if(m!=a[i])
      {
