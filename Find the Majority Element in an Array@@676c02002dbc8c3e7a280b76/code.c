@@ -23,4 +23,11 @@ int main()
             d--;
         }
     }
+    if(d>n/2)
+    {
+        printf("%d",c);
+    }
+    else{
+        printf("-1\n");
+    }
 }
