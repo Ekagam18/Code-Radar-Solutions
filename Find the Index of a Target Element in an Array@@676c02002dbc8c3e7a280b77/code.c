@@ -19,7 +19,7 @@ int main()
      {
         printf("%d",j);
      }
-     else
+     else if(m!=a[j])
      {
         printf("-1");
      }
