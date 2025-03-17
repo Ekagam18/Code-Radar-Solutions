@@ -12,8 +12,9 @@ int main()
         scanf("%s",&a);
         float m;
         scanf("%f",&m);
-        float k;
-        k +=m /t;
-        printf("%f",k);
+        float k=0;
+        k += m;
+        float j= k/t;
+        printf("%f",j);
     }
 }
